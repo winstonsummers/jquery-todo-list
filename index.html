@@ -3,9 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>Honey-Do List</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div id="top">
+  	<h1>Honey-Do</h1>
+  	<p id="jokes">Hurry up</p>
+  </div>
+    <form>
+	  	<p id="formTitle">Add Item to List</p>
+	  	<!-- <select id="dropDown">
+	  		<option id="opt1">Do Immedately</option>
+	  		<option id="opt2">Do Today</option>
+	  		<option id="opt3">DO YESTERDAY</option>
+	  	</select> -->
+	  	<br>
+	  	<input id="newItem" type="text" name="newListItem" placeholder="New List Item">
+	  	<br>
+	  	<input type="submit" value="submit">
+	</form>
+  <div>
+	  <div class="column">
+	  	<h3>Do Immedately</h3>
+	  	<button>Finished First</button>
+	  		<ol id="doImm">
+	  			<li>take out the trash</li>
+
+	  		</ol>
+	  </div>
+	 <!--  <div class="column">
+	  	<h3>Do Today</h3>
+	  		<ol id="today">
+	  			<li>dishes</li>
+
+	  		</ol>
+	  </div>
+	  <div class="column">
+	  	<h3>DO YESTERDAY</h3>
+	  		<ol id="yester">
+	  			<li>sweep the driveway</li>
+
+	  		</ol>
+	  </div> -->
+  </div>
+	 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

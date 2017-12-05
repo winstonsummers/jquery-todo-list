@@ -1,0 +1,32 @@
+body{
+	background-color: #FFFFA1;
+}
+#jokes{
+	text-align: right;
+}
+.column{
+	display: inline-block;
+	background-color: rgba(232,141,12,0.3);
+	padding: 5px;
+	border: 5px solid black;
+}
+div, form{
+	display: inline-block;
+}
+#top{
+	background-color: rgba(255,60,0,0.3);
+	padding: 10px;
+	display: block;
+}
+form{
+	border: 5px solid black;
+	width: 200px;
+	height: 130px;
+	background-color: rgba(255,255,0,0.3);
+}
+#formTitle{
+	margin-top: 0;
+}
+select, input{
+	display: block;
+}
